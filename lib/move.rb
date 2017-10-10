@@ -13,7 +13,7 @@ def input_to_index(input)
     return "invalid"
   else
     return num_input
-  end 
+  end
 end
 
 def move(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "], pos, mark)
