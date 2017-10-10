@@ -7,3 +7,11 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+def input_to_index(input)
+  num_input = input.to_i - 1
+  if num_input < 0 
+    return "invalid"
+  else 
+    return num_input
+  end 
+end
