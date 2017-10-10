@@ -10,7 +10,7 @@ end
 def input_to_index(input)
   num_input = input.to_i - 1
   if num_input < 0
-    return "invalid"
+    return "-1"
   else
     return num_input
   end
