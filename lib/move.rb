@@ -17,5 +17,5 @@ def input_to_index(input)
 end
 
 def move(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "], pos, mark="X")
-  board[pos] = mark 
+  board[pos] = mark
 end
