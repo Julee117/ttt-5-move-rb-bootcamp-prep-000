@@ -8,7 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  num_input = input.to_i - 1
+  num_input = input - 1
   if num_input < 0
     return -1
   else
@@ -18,5 +18,4 @@ end
 
 def move(board, pos, mark="X")
   board[pos] = mark
-  return board
 end
