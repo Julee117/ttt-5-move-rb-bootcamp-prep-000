@@ -18,4 +18,5 @@ end
 
 def move(board, pos, mark="X")
   board[pos] = mark
+  return board
 end
